@@ -46,3 +46,60 @@
                width: 250px;
   }
   /* login end */
+
+
+  /* home  start*/
+  .grd1{
+    border: 1px solid rgb(0, 0, 0,.4);
+    border-radius: 5px;
+    height: 500px;
+    margin-left: 800px;
+    margin-top: 50px;
+    box-shadow: 2px2px 2px 2px  rgba(12, 0, 0,);
+    background-color: rgba(182, 232, 189, 0.9);
+    /* overflow: scroll; */
+  }
+
+  #msg{
+    width:400px ;
+  }
+  .inpt{
+    /* position: absolute; */
+ border: none;
+  }
+  .dv2{
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    width: 390px;
+    margin-top: 5px;
+    position: fixed;
+    /* padding-left: 10px; */
+  }
+  .cntr{
+    height: 100vh;
+    background-image: url(img/care.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .head{
+    /* border: 1px solid black; */
+    height: 50px;
+    padding-left: 10px;
+    display: flex;
+    
+  }
+  .avtar{
+    margin-left: 200px;
+    margin-top: 20px;
+    /* background-image: url(img/chat.jpg); */
+    background-size: contain;    
+  }
+  .content{
+    margin-top: -20px;
+    /* border: 1px solid black; */
+    background-color: azure;
+    height: 380px;
+  }
+  /* home end */

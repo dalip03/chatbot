@@ -6,6 +6,7 @@ import 'jquery/src/jquery';
 import 'bootstrap/dist/js/bootstrap';
 import Basket from './components/basket';
 import Login from './components/Authentication/login';
+import Home from './components/Home';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <Routes>
     <Route path="/" element={<Product/>}/>
     <Route path='/basket'element={<Basket/>}/>
+    <Route path='/Home'element={<Home/>}/>
     <Route path='/login'element={<Login/>}/>
 
 
