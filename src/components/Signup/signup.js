@@ -1,10 +1,11 @@
-import { Button, TextField } from "@mui/material";
-import React from "react";
+import { Button, TextField } from '@mui/material'
+import React from 'react'
 
-function Login() {
+export default function Signup() {
   return (
-    <div className="col-lg-4 lgdv">
-      <h1>Login Here</h1>
+    <div>
+      <div className="col-lg-4 lgdv">
+      <h1>Signup Here</h1>
       <TextField id="outlined-basic" name="name" label="Enter Name" variant="outlined" />
       <TextField
         id="outlined-basic"
@@ -17,7 +18,6 @@ function Login() {
             Login
       </Button>
     </div>
-  );
+    </div>
+  )
 }
-
-export default Login;
